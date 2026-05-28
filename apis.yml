@@ -1,0 +1,32 @@
+aid: bitcoincharts
+name: BitcoinCharts
+description: "Financial and Technical Data related to the Bitcoin Network"
+url: https://bitcoincharts.com/about/exchanges/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Cryptocurrency"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Cryptocurrency
+  - Public APIs
+apis:
+  - name: BitcoinCharts
+    description: "Financial and Technical Data related to the Bitcoin Network"
+    humanURL: https://bitcoincharts.com/about/exchanges/
+    baseURL: https://bitcoincharts.com/about/exchanges/
+    tags:
+      - Cryptocurrency
+    properties:
+      - type: Documentation
+        url: https://bitcoincharts.com/about/exchanges/
+common:
+  - type: Website
+    url: https://bitcoincharts.com/about/exchanges/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
